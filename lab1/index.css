@@ -5,6 +5,10 @@ body {
   background-color: #e6ecf0;
 }
 
+ul{
+  list-style:none;
+}
+
 #navbarContents{
   position:fixed;
   display:inline-flex;
@@ -21,12 +25,37 @@ body {
   width:auto;
 }
 
+.user-info{
+  background-color:green;
+  width:290px;
+  height:auto;
+}
+
+.tweet-list{
+  width:610px;
+  background-color:beige;
+  height:auto;
+}
+.user-info-stats{
+  list-style:none;
+  display:inline-flex;
+  justify-content:space-between;
+}
+
+.follow-list{
+  width:290px;
+  background-color:red;
+  height:auto;
+}
+
 .mainpage-container{
   max-width:1190px;
+  margin: 56px auto;
   background-color: blue;
   margin-top:46px;
-  margin-left:auto;
-  margin-right:auto;
+
+  display:flex;
+  justify-content:center;
 }
 
 /* TODO: Create CSS for your Twitter Mockup */
