@@ -52,6 +52,14 @@ ul{
   top:-15px;
 }
 
+th{
+  color:#657786;
+}
+
+td{
+  color:#1DA1F2;
+}
+
 .user-info{
   position:relative;
   background-color:white;
@@ -61,8 +69,10 @@ ul{
 
 .tweet-list{
   width:610px;
-  background-color:beige;
+  /* background-color:beige; */
   height:auto;
+  padding-left:10px;
+  padding-right:10px;
 }
 .tweet{
   background-color:white;
