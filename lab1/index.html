@@ -2,8 +2,8 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8' />
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel='secondary-stylesheet' integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css" rel='primary-stylesheet'>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id='navbar-class'>
@@ -12,7 +12,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarContents">
           <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#">Moments</a>
               <a class="nav-item nav-link" href="#">Notifications</a>
               <a class='nav-item nav-link' href='#'>Messages</a>
@@ -27,17 +27,54 @@
     </nav>
     <div class='mainpage-container'>
       <div class='user-info'>
-        <h1>Remy</h1>
-        <li class='user-info-stats'>
-          <ul>Tweets</ul>
-          <ul>Following</ul>
-          <ul>Followers</ul>
-        </li>
+        <div class='banner-container'><img src='./images/ratatouille-banner.png' class="banner" alt='ratatouille-banner'></div>
+        <div><img src='./images/ratatouille.jpg' class="profile" alt='profile-rat'></div>
+        <div style="clear: both;"></div>
+
+        <table cellpadding="8" class='profile-data'>
+          <thead >
+             <tr>
+                <th>Tweets</th>
+                <th>Following</th>
+                <th>Followers</th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+                <td>5049</td>
+                <td>324</td>
+                <td>809</td>
+             </tr>
+          </tbody>
+       </table>
+
       </div>
       <div class='tweet-list'>
-        <ul>
-          <li><p>Tester</p></li>
-        </ul>
+        <div class='tweet'>
+          <p><b>Remy</b> @remy Nov 19</p>
+          <img src='./images/ratatouille.jpg' class="tweet-profile" alt='profile-rat'>
+          <p>I'm taking this class called CS110 and the TA's are <b>cool</b>!</p>
+        </div>
+        <div class='tweet'>
+          <p><b>Remy</b> @remy Nov 19</p>
+          <img src='./images/ratatouille.jpg' class="tweet-profile" alt='profile-rat'>
+          <p>It's 2007. You just got home from elementary school. Your mom has pizza bagels in the oven. Ratatouille is in theaters. Life is good</p>
+        </div>
+        <div class='tweet'>
+          <p><b>Remy</b> @remy Nov 19</p>
+          <img src='./images/ratatouille.jpg' class="tweet-profile" alt='profile-rat'>
+          <p>Let's make some pasta!</p>
+        </div>
+        <div class='tweet'>
+          <p><b>Remy</b> @remy Nov 19</p>
+          <img src='./images/ratatouille.jpg' class="tweet-profile" alt='profile-rat'>
+          <p>Let's make some pasta!</p>
+        </div>
+        <div class='tweet'>
+          <p><b>Remy</b> @remy Nov 19</p>
+          <img src='./images/ratatouille.jpg' class="tweet-profile" alt='profile-rat'>
+          <p>Let's make some pasta!</p>
+        </div>
       </div>
       <div class='follow-list'>
         <h2>Who to Follow</h2>
