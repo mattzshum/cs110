@@ -78,10 +78,21 @@ ul{
   justify-content:space-between;
 }
 
+.linguini-profile{
+  width:60px;
+  height:auto;
+  border-radius:50%;
+}
+.ratv2-profile{
+  width:60px;
+  height:auto;
+  border-radius:50%;
+}
+
 .follow-list{
   width:290px;
-  background-color:red;
-  height:auto;
+  background-color: white;
+  height:100%;
 }
 
 .mainpage-container{
