@@ -81,15 +81,12 @@ td{
   padding-right:10px;
 }
 .tweet{
- /* background-color:white; */
   border-bottom: 1px solid #e6ecf0;
   min-height: 51px;
 }
 
 .hr{
   display: block;
-  /*margin-top: auto;
-  margin-bottom: auto; */
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
@@ -132,6 +129,11 @@ td{
   background-color: white;
   height:100%;
 }
+@media screen and (max-width: 1200px) {
+  div.follow-list {
+    display: none;
+  }
+}
 .button2 {
   background-color: white; 
   color: #6CADDE; 
@@ -143,7 +145,6 @@ td{
   max-width:1190px;
   margin: 56px auto;
   padding-top:10px;
-
   display:flex;
   justify-content:center;
 }
