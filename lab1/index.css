@@ -1,4 +1,5 @@
 /* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+/* Matthew Shum & Shana Tirtawidjaja */
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0;
@@ -39,7 +40,7 @@ ul{
   padding-top:5%;
 }
 .button1 {
-  background-color: #6CADDE; 
+  background-color: #4AB3F4; 
   color: white; 
   border: 2px solid  white;
   border-radius: 12px;
@@ -136,8 +137,8 @@ td{
 }
 .button2 {
   background-color: white; 
-  color: #6CADDE; 
-  border: 2px solid  #6CADDE;
+  color: #4AB3F4; 
+  border: 2px solid  #4AB3F4;
   border-radius: 12px;
 }
 
